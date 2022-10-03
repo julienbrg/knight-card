@@ -63,9 +63,9 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.link__nyzkB
               )}
-              href={`/dashboard`}
+              href={`/`}
             >
-              {"My little central bank"}
+              {"Knight Card"}
             </a>
           </div>
         ) : null}
@@ -85,7 +85,7 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.link__zcX7X
               )}
-              href={`/print`}
+              href={`/dashboard`}
             >
               {"App"}
             </a>

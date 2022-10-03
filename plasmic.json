@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -38,7 +38,8 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "fBQJDH7PU5FGNVtvQedmDg",
@@ -168,6 +169,16 @@
           "id": "mIKYKYOgYSTOGC",
           "name": "favicon.png",
           "filePath": "plasmic/knight_card/images/faviconpng.png"
+        },
+        {
+          "id": "N33eUf8Xh",
+          "name": "image",
+          "filePath": "plasmic/knight_card/images/image.png"
+        },
+        {
+          "id": "ciEAHxKCK",
+          "name": "image 2",
+          "filePath": "plasmic/knight_card/images/image2.png"
         }
       ],
       "indirect": false,

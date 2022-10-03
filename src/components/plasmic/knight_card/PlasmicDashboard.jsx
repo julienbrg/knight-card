@@ -86,6 +86,21 @@ function PlasmicDashboard__RenderFunc(props) {
                   {"Knight Card helps you..."}
                 </div>
 
+                <p.PlasmicImg
+                  data-plasmic-name={"img"}
+                  data-plasmic-override={overrides.img}
+                  alt={""}
+                  className={classNames(sty.img)}
+                  displayHeight={"258px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={"https://www.gimp-forum.net/attachment.php?aid=6848"}
+                />
+
                 <div className={classNames(projectcss.all, sty.freeBox__wjoHe)}>
                   <div
                     data-plasmic-name={"textBox"}
@@ -105,7 +120,7 @@ function PlasmicDashboard__RenderFunc(props) {
                   data-plasmic-override={overrides.create}
                   className={classNames("__wab_instance", sty.create)}
                 >
-                  {"Print"}
+                  {"Action"}
                 </Button>
               </p.Stack>
             </div>
@@ -123,10 +138,21 @@ function PlasmicDashboard__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "section", "text", "textBox", "create", "footer"],
+  root: [
+    "root",
+    "header",
+    "section",
+    "text",
+    "img",
+    "textBox",
+    "create",
+    "footer"
+  ],
+
   header: ["header"],
-  section: ["section", "text", "textBox", "create"],
+  section: ["section", "text", "img", "textBox", "create"],
   text: ["text"],
+  img: ["img"],
   textBox: ["textBox"],
   create: ["create"],
   footer: ["footer"]
@@ -169,6 +195,7 @@ export const PlasmicDashboard = Object.assign(
     header: makeNodeComponent("header"),
     section: makeNodeComponent("section"),
     text: makeNodeComponent("text"),
+    img: makeNodeComponent("img"),
     textBox: makeNodeComponent("textBox"),
     create: makeNodeComponent("create"),
     footer: makeNodeComponent("footer"),

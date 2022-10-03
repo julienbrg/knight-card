@@ -117,7 +117,7 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text__bGMz
                     )}
                   >
-                    {"Makes your car indestructible."}
+                    {"Make your car indestructible."}
                   </div>
                 </Reveal>
               </p.Stack>
@@ -126,7 +126,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 data-plasmic-name={"button"}
                 data-plasmic-override={overrides.button}
                 className={classNames("__wab_instance", sty.button)}
-                link={`/print`}
+                link={`/dashboard`}
               >
                 <div
                   className={classNames(
@@ -138,6 +138,12 @@ function PlasmicHomepage__RenderFunc(props) {
                   {"Go to app"}
                 </div>
               </Button>
+
+              <div
+                data-plasmic-name={"tv"}
+                data-plasmic-override={overrides.tv}
+                className={classNames(projectcss.all, sty.tv)}
+              />
             </div>
           ) : null}
 
@@ -153,12 +159,23 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "freeBox", "section", "h1", "button", "footer"],
+  root: [
+    "root",
+    "header",
+    "freeBox",
+    "section",
+    "h1",
+    "button",
+    "tv",
+    "footer"
+  ],
+
   header: ["header"],
-  freeBox: ["freeBox", "section", "h1", "button"],
+  freeBox: ["freeBox", "section", "h1", "button", "tv"],
   section: ["section", "h1"],
   h1: ["h1"],
   button: ["button"],
+  tv: ["tv"],
   footer: ["footer"]
 };
 
@@ -201,6 +218,7 @@ export const PlasmicHomepage = Object.assign(
     section: makeNodeComponent("section"),
     h1: makeNodeComponent("h1"),
     button: makeNodeComponent("button"),
+    tv: makeNodeComponent("tv"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

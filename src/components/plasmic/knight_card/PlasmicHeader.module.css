@@ -70,8 +70,8 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  margin-left: calc(0px - 15px);
-  width: calc(100% + 15px);
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
 }
 .freeBox__b8D7Z > :global(.__wab_flex-container) > *,
 .freeBox__b8D7Z > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -81,7 +81,7 @@
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .freeBox__skWti {
   display: flex;

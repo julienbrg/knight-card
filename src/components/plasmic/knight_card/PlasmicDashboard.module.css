@@ -95,16 +95,29 @@
   height: auto;
   max-width: 800px;
   color: var(--token-BBEIpUYa9UUs4s);
-  padding-bottom: 55px;
-  padding-top: 61px;
+  padding-bottom: 0px;
+  padding-top: 33px;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .text {
     text-align: left;
-    padding-bottom: 15px;
-    padding-top: 0px;
+    padding-bottom: 41px;
+    padding-top: 34px;
   }
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  height: 258px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
 }
 .freeBox__wjoHe {
   display: flex;
@@ -122,6 +135,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wjoHe {
+    width: 300px;
     padding: 15px;
   }
 }
