@@ -2,7 +2,8 @@
 
 "Make your car indestructble."
 
-[https://devpost.com/software/knight-card](https://devpost.com/software/knight-card)
+- Project description: [https://devpost.com/software/knight-card](https://devpost.com/software/knight-card)
+- Live demo: [https://knight-card.netlify.app/](https://knight-card.netlify.app/)
 
 ## Install
 
