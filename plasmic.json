@@ -1,0 +1,202 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.3.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ]
+    },
+    {
+      "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+      "projectApiToken": "wvJSFjhaTyaCTzMN2rrYQzN6fN5Jo8I0FzPFkupBW8uuWbkWdeaSlRL82dQ26fehuGZjw4zQpxmYRIRZGFwg",
+      "projectName": "knight-card",
+      "version": "latest",
+      "cssFilePath": "plasmic/knight_card/plasmic_knight_card.module.css",
+      "components": [
+        {
+          "id": "NIZi8Hse93sQY",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nlfm8NUj2v054",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-Lfs3sivO2_2k",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0BMZIJF84xgEq",
+          "name": "About",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "About.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wQ8nuIXbn5TIi",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "qCLGD-QBN4_dX",
+          "name": "Dashboard",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicDashboard.jsx",
+          "importSpec": {
+            "modulePath": "Dashboard.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicDashboard.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4wLcyqNzLC-ld",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+          "renderModuleFilePath": "plasmic/knight_card/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/knight_card/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        }
+      ],
+      "icons": [
+        {
+          "id": "dNv7dVTnpapxt_",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/knight_card/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "2FORTres2zTtkK",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/knight_card/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "EGl89KBr_WWEqw",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/knight_card/icons/PlasmicIcon__Searchsvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "XEWIpS_Z3qt_2W",
+          "name": "strat-logo-white.png",
+          "filePath": "plasmic/knight_card/images/stratLogoWhitepng.png"
+        },
+        {
+          "id": "mIKYKYOgYSTOGC",
+          "name": "favicon.png",
+          "filePath": "plasmic/knight_card/images/faviconpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "WbTyQ7K6QYzT7",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "orU1hyJh95IFX",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "teWOHrXP1oRco",
+        "name": "Screen",
+        "projectId": "fBQJDH7PU5FGNVtvQedmDg",
+        "contextFilePath": "plasmic/knight_card/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
+}
