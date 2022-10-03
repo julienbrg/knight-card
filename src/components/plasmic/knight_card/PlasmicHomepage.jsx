@@ -117,7 +117,28 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text__bGMz
                     )}
                   >
-                    {"Make your car indestructible."}
+                    <React.Fragment>
+                      <React.Fragment>{"Make your car "}</React.Fragment>
+                      {
+                        <a
+                          data-plasmic-name={"link"}
+                          data-plasmic-override={overrides.link}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            projectcss.plasmic_default__inline,
+                            sty.link
+                          )}
+                          href={"https://www.youtube.com/watch?v=uO8yFLF9uhM"}
+                          target={"_blank"}
+                        >
+                          {"indestructible"}
+                        </a>
+                      }
+
+                      <React.Fragment>{"."}</React.Fragment>
+                    </React.Fragment>
                   </div>
                 </Reveal>
               </p.Stack>
@@ -165,15 +186,17 @@ const PlasmicDescendants = {
     "freeBox",
     "section",
     "h1",
+    "link",
     "button",
     "tv",
     "footer"
   ],
 
   header: ["header"],
-  freeBox: ["freeBox", "section", "h1", "button", "tv"],
-  section: ["section", "h1"],
+  freeBox: ["freeBox", "section", "h1", "link", "button", "tv"],
+  section: ["section", "h1", "link"],
   h1: ["h1"],
+  link: ["link"],
   button: ["button"],
   tv: ["tv"],
   footer: ["footer"]
@@ -217,6 +240,7 @@ export const PlasmicHomepage = Object.assign(
     freeBox: makeNodeComponent("freeBox"),
     section: makeNodeComponent("section"),
     h1: makeNodeComponent("h1"),
+    link: makeNodeComponent("link"),
     button: makeNodeComponent("button"),
     tv: makeNodeComponent("tv"),
     footer: makeNodeComponent("footer"),
