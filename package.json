@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@orbisclub/orbis-sdk": "^0.3.56",
     "@plasmicapp/cli": "^0.1.186",
     "@plasmicapp/host": "^1.0.80",
     "@plasmicapp/react-web": "^0.2.112",

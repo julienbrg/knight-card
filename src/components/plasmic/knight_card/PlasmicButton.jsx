@@ -31,7 +31,8 @@ export const PlasmicButton__VariantProps = new Array(
   "isDisabled",
   "shape",
   "size",
-  "color"
+  "color",
+  "blue"
 );
 
 export const PlasmicButton__ArgProps = new Array(
@@ -77,6 +78,7 @@ function PlasmicButton__RenderFunc(props) {
         sty.root,
         {
           [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+          [sty.rootblue]: hasVariant(variants, "blue", "blue"),
           [sty.rootcolor_blue]: hasVariant(variants, "color", "blue"),
           [sty.rootcolor_clear]: hasVariant(variants, "color", "clear"),
           [sty.rootcolor_green]: hasVariant(variants, "color", "green"),
