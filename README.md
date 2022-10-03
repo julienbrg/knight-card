@@ -1,25 +1,27 @@
-This is a React project bootstrapped with [`create-plasmic-app`](https://www.npmjs.com/package/create-plasmic-app).
+# Knight Card
 
-## Getting Started
+"Make your car indestructble."
 
-First, run the development server:
+[https://devpost.com/software/knight-card](https://devpost.com/software/knight-card)
 
-```bash
-npm run start
+## Install
+
+```shell
+npm i
 ```
 
-Open your browser to see the result.
+## Test
 
-You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
+```shell
+npm start
+```
 
-## Learn More
+## Resources
 
-With Plasmic, you can enable non-developers on your team to publish pages and content into your website or app.
+- [Web3Auth docs](https://web3auth.io/docs/)
+- [Ethers.js docs](https://docs.ethers.io/v5/)
+- [Plasmic docs](https://docs.plasmic.app/)
 
-To learn more about Plasmic, take a look at the following resources:
+## Support
 
-- [Plasmic Website](https://www.plasmic.app/)
-- [Plasmic Documentation](https://docs.plasmic.app/learn/)
-- [Plasmic Slack Community](https://www.plasmic.app/slack)
-
-You can check out [the Plasmic GitHub repository](https://github.com/plasmicapp/plasmic) - your feedback and contributions are welcome!
+You can contact us via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Telegram](https://t.me/julienbrg), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), or [LinkedIn](https://www.linkedin.com/in/julienberanger/).
