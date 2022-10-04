@@ -1,7 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import * as React from "react";
 import { useEffect, useState } from "react";
 import { Web3Auth } from "@web3auth/web3auth";
-import { CHAIN_NAMESPACES, SafeEventEmitterProvider } from "@web3auth/base";
+import { CHAIN_NAMESPACES } from "@web3auth/base";
 import { PlasmicHeader } from "./plasmic/knight_card/PlasmicHeader";
 import { ethers } from "ethers";
 
@@ -9,7 +10,7 @@ function Header_(props, ref) {
 
   const clientId = String(process.env.REACT_APP_WEB3_AUTH_CLIENT_ID);
   const endpoint = String(process.env.REACT_APP_RPC_URL);
-  const faucet = String(process.env.REACT_APP_FAUCET_PRIVATE_KEY);
+  // const faucet = String(process.env.REACT_APP_FAUCET_PRIVATE_KEY);
 
   const [web3auth, setWeb3auth] = useState(null);
   const [provider, setProvider] = useState(null);
