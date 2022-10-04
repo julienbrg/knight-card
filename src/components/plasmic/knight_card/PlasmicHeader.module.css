@@ -114,11 +114,10 @@
   max-width: 800px;
   color: var(--token-BBEIpUYa9UUs4s);
 }
-.login:global(.__wab_instance) {
-  max-width: 100%;
+.check:global(.__wab_instance) {
   position: relative;
-  height: 16px;
-  width: 56px;
+  width: 47px;
+  height: 8px;
   flex-shrink: 0;
 }
 .svg__e1BrJ {
@@ -127,10 +126,32 @@
   width: 1em;
   height: 1em;
 }
-.text {
+.text__htbF {
   font-size: 12px;
 }
 .svg__mnYdq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.login:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  height: 16px;
+  width: 56px;
+  flex-shrink: 0;
+}
+.svg__dnPuZ {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.text__g2QGr {
+  font-size: 12px;
+}
+.svg___1EttZ {
   position: relative;
   object-fit: cover;
   width: 1em;

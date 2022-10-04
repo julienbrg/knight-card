@@ -108,17 +108,32 @@ function PlasmicHeader__RenderFunc(props) {
         ) : null}
 
         <Button
+          data-plasmic-name={"check"}
+          data-plasmic-override={overrides.check}
+          className={classNames("__wab_instance", sty.check)}
+          color={"blue"}
+        >
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__htbF
+            )}
+          >
+            {"Check"}
+          </div>
+        </Button>
+
+        <Button
           data-plasmic-name={"login"}
           data-plasmic-override={overrides.login}
           className={classNames("__wab_instance", sty.login)}
         >
           <div
-            data-plasmic-name={"text"}
-            data-plasmic-override={overrides.text}
             className={classNames(
               projectcss.all,
               projectcss.__wab_text,
-              sty.text
+              sty.text__g2QGr
             )}
           >
             {"Login"}
@@ -130,9 +145,9 @@ function PlasmicHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "login", "text"],
-  login: ["login", "text"],
-  text: ["text"]
+  root: ["root", "check", "login"],
+  check: ["check"],
+  login: ["login"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -169,8 +184,8 @@ export const PlasmicHeader = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    check: makeNodeComponent("check"),
     login: makeNodeComponent("login"),
-    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicHeader
     internalVariantProps: PlasmicHeader__VariantProps,
     internalArgProps: PlasmicHeader__ArgProps
