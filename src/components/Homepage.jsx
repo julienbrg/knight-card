@@ -13,15 +13,9 @@ function Homepage_(props, ref) {
     },
   };
 
-  // const _onReady = () => {
-  //   // access to player in all event handlers via event.target
-  //   YouTube.playVideo();
-  // }
-
   return <PlasmicHomepage root={{ ref }} {...props} 
 
     tv={{
-      // render: () => <YouTube style={{display:"none"}} videoId="uO8yFLF9uhM" opts={opts} onReady={YouTube.playVideo} />
       render: () => <YouTube style={{display:"none"}} videoId="mWDZsKSGoVg" opts={opts} onReady={YouTube.playVideo} />
     }}
 
