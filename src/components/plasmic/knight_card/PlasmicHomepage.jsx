@@ -81,9 +81,11 @@ function PlasmicHomepage__RenderFunc(props) {
               >
                 <Reveal
                   big={true}
+                  cascade={false}
                   className={classNames("__wab_instance", sty.reveal__fKnAe)}
+                  damping={0.5}
                   direction={"down"}
-                  duration={5000}
+                  duration={7000}
                   effect={"fade"}
                   triggerOnce={true}
                 >
@@ -105,8 +107,8 @@ function PlasmicHomepage__RenderFunc(props) {
                   big={true}
                   cascade={false}
                   className={classNames("__wab_instance", sty.reveal__njbdj)}
-                  delay={4000}
-                  duration={2000}
+                  delay={7000}
+                  duration={3000}
                   effect={"fade"}
                   triggerOnce={true}
                 >
@@ -143,22 +145,31 @@ function PlasmicHomepage__RenderFunc(props) {
                 </Reveal>
               </p.Stack>
 
-              <Button
-                data-plasmic-name={"button"}
-                data-plasmic-override={overrides.button}
-                className={classNames("__wab_instance", sty.button)}
-                link={`/dashboard`}
+              <Reveal
+                cascade={true}
+                className={classNames("__wab_instance", sty.reveal__sbBP)}
+                delay={12000}
+                duration={200}
+                effect={"rotate"}
+                triggerOnce={true}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__cVNq
-                  )}
+                <Button
+                  data-plasmic-name={"button"}
+                  data-plasmic-override={overrides.button}
+                  className={classNames("__wab_instance", sty.button)}
+                  link={`/dashboard`}
                 >
-                  {"Go to app"}
-                </div>
-              </Button>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cVNq
+                    )}
+                  >
+                    {"Go to app"}
+                  </div>
+                </Button>
+              </Reveal>
 
               <div
                 data-plasmic-name={"tv"}

@@ -115,13 +115,30 @@ function PlasmicDashboard__RenderFunc(props) {
                   </div>
                 </div>
 
-                <Button
-                  data-plasmic-name={"create"}
-                  data-plasmic-override={overrides.create}
-                  className={classNames("__wab_instance", sty.create)}
-                >
-                  {"Action"}
-                </Button>
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox___8Pu)}
+                  >
+                    <Button
+                      data-plasmic-name={"encrypt"}
+                      data-plasmic-override={overrides.encrypt}
+                      className={classNames("__wab_instance", sty.encrypt)}
+                    >
+                      {"Encrypt"}
+                    </Button>
+
+                    <Button
+                      data-plasmic-name={"decrypt"}
+                      data-plasmic-override={overrides.decrypt}
+                      className={classNames("__wab_instance", sty.decrypt)}
+                      color={"blue"}
+                    >
+                      {"Decrypt"}
+                    </Button>
+                  </p.Stack>
+                ) : null}
               </p.Stack>
             </div>
           ) : null}
@@ -145,16 +162,18 @@ const PlasmicDescendants = {
     "text",
     "img",
     "textBox",
-    "create",
+    "encrypt",
+    "decrypt",
     "footer"
   ],
 
   header: ["header"],
-  section: ["section", "text", "img", "textBox", "create"],
+  section: ["section", "text", "img", "textBox", "encrypt", "decrypt"],
   text: ["text"],
   img: ["img"],
   textBox: ["textBox"],
-  create: ["create"],
+  encrypt: ["encrypt"],
+  decrypt: ["decrypt"],
   footer: ["footer"]
 };
 
@@ -197,7 +216,8 @@ export const PlasmicDashboard = Object.assign(
     text: makeNodeComponent("text"),
     img: makeNodeComponent("img"),
     textBox: makeNodeComponent("textBox"),
-    create: makeNodeComponent("create"),
+    encrypt: makeNodeComponent("encrypt"),
+    decrypt: makeNodeComponent("decrypt"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicDashboard
     internalVariantProps: PlasmicDashboard__VariantProps,

@@ -67,6 +67,9 @@
 .rootcolor_link {
   background: #ffffff00;
 }
+.rootblue {
+  background: var(--token-gW3o-bH5UQaJxR);
+}
 .rootisDisabled {
   cursor: not-allowed;
   opacity: 0.6;

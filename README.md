@@ -1,6 +1,6 @@
 # Knight Card
 
-"Make your car indestructble."
+"Make your car indestructible."
 
 - Project description: [https://devpost.com/software/knight-card](https://devpost.com/software/knight-card)
 - Live demo: [https://knight-card.netlify.app/](https://knight-card.netlify.app/)

@@ -1,8 +1,13 @@
 import * as React from "react";
 import { PlasmicDashboard } from "./plasmic/knight_card/PlasmicDashboard";
 import { useState } from "react";
+import { Orbis } from "@orbisclub/orbis-sdk";
+
+const orbis = new Orbis();
 
 function Dashboard_(props, ref) {
+
+  orbis.connect();
 
   const [helloWorld, setHelloWorld] = useState("")
 
