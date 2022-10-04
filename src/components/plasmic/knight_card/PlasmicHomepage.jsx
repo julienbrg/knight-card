@@ -81,7 +81,9 @@ function PlasmicHomepage__RenderFunc(props) {
               >
                 <Reveal
                   big={true}
+                  cascade={false}
                   className={classNames("__wab_instance", sty.reveal__fKnAe)}
+                  damping={0.5}
                   direction={"down"}
                   duration={7000}
                   effect={"fade"}
@@ -106,7 +108,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   cascade={false}
                   className={classNames("__wab_instance", sty.reveal__njbdj)}
                   delay={7000}
-                  duration={2000}
+                  duration={3000}
                   effect={"fade"}
                   triggerOnce={true}
                 >
@@ -144,8 +146,10 @@ function PlasmicHomepage__RenderFunc(props) {
               </p.Stack>
 
               <Reveal
+                cascade={true}
                 className={classNames("__wab_instance", sty.reveal__sbBP)}
-                delay={8000}
+                delay={12000}
+                duration={200}
                 effect={"rotate"}
                 triggerOnce={true}
               >
